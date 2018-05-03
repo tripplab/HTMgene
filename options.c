@@ -13,12 +13,12 @@ void PrintHelp(int exval)
     printf("  -h              print this help and exit\n");
     printf("  -V              print version and exit\n\n");
 
-    printf("  -G              set Gene Expression Matrix file\n");
-    printf("  -r              set the minimum numbers of rows (default 1)\n");
-    printf("  -c              set the minimum numbers of cols (default 1)\n");
-    printf("  -p {1,2}      set type of write (1: console, 2: file)\n");
-    printf("  -o FILE         set output biclusters file (default Biclusters.txt)\n");
-    printf("  -u (1,2)        set type of umbral (1- columns, 2-probability)\n");    
+    printf("  -G              Gene Expression Matrix file\n");
+    printf("  -r              Minimum number of rows (default 1)\n");
+    printf("  -c              Minimum number of cols (default 1)\n");
+    printf("  -p {1,2}        Type of output (1:console, 2:file)\n");
+    printf("  -o FILE         Name of biclusters file (default Biclusters.txt)\n");
+    printf("  -u (1,2)        Type of threshold (1:columns, 2:probability)\n");    
     printf("\n\n");
     exit(exval);
 }
