@@ -1,4 +1,5 @@
-/*HTMGene Angélica Alejandra Serrano Rubio*/
+/* HTMGene Angélica Alejandra Serrano Rubio, Mauricio Carrillo-Tripp */
+/* Biomolecular Diversity Lab, http://tripplab.com */
 
 #ifndef MEMORY_H
 #define MEMORY_H
