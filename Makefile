@@ -2,7 +2,7 @@ CCOMP= gcc
 CLINK=gcc
 LFLAGS= -std=c99
 CFLAGS= -std=c99 -Wall -c
-EXEC=exec
+EXEC=HTMgene
 CPPS:=$(wildcard *.c)
 OBJS:=$(patsubst %.c,%.o,$(CPPS))
 $(EXEC): $(OBJS) 
